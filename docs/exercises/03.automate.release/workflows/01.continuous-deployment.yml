@@ -1,17 +1,10 @@
-<<<<<<< HEAD
-name: Deploy Release
-=======
 name: 3. Deploy Release
->>>>>>> 9ff487a (Initial commit)
 
 on:
   release:
     types:
       - released
-<<<<<<< HEAD
-=======
   workflow_dispatch: {}
->>>>>>> 9ff487a (Initial commit)
 
 concurrency:
   group: github-pages
@@ -43,12 +36,6 @@ jobs:
 
       - name: Setup Pages
         uses: actions/configure-pages@v3
-<<<<<<< HEAD
-        with:
-          enablement: "true"
-          token: "${{ steps.generate-app-token.outputs.token }}"
-=======
->>>>>>> 9ff487a (Initial commit)
 
       - name: Download release asset
         id: download-release-asset

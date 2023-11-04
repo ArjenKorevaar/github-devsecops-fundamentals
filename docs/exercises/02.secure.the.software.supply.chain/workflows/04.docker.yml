@@ -1,11 +1,8 @@
-<<<<<<< HEAD
-name: (Optional) Package Container Image
-=======
 name: 2.3 (Optional) Package Container Image
->>>>>>> 9ff487a (Initial commit)
 
 on:
-  workflow_dispatch: {}
+  pull_request:
+    branches: [ main ]
 
 permissions:
   contents: read

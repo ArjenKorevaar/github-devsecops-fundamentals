@@ -6,8 +6,13 @@
 
 <p align="center">
   <a href="https://githubuniverseworkshops.github.io/github-devsecops-fundamentals/prerequisites">Prerequisites</a> •
+<<<<<<< HEAD
   <a href="https://githubuniverseworkshops.github.io/github-devsecops-fundamentals/#resources">Resources</a> •
   <a href="https://githubuniverseworkshops.github.io/github-devsecops-fundamentals/#learning-objectives">Learning Objectives</a>
+=======
+  <a href="https://githubuniverseworkshops.github.io/github-devsecops-fundamentals/index.md#resources">Resources</a> •
+  <a href="https://githubuniverseworkshops.github.io/github-devsecops-fundamentals/index.md#learning-objectives">Learning Objectives</a>
+>>>>>>> 9ff487a (Initial commit)
 </p>
 
 <p align="center">

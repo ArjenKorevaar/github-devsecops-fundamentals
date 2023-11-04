@@ -1,17 +1,10 @@
-<<<<<<< HEAD
-name: Package Delivery Artifacts & Create Release
-=======
 name: 2.2 Package Delivery Artifacts & Create Release
->>>>>>> 9ff487a (Initial commit)
 
 on:
   push:
     tags:
       - "*-release"
-<<<<<<< HEAD
-=======
   workflow_dispatch: {}
->>>>>>> 9ff487a (Initial commit)
 
 permissions:
   contents: write

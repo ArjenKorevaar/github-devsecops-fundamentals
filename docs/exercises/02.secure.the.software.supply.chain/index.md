@@ -6,9 +6,30 @@
 
     Building on the progress from previous exercises, we will apply supply chain security and continuously deliver the product by fulfilling the following objectives.
 
+<<<<<<< HEAD
     ## :octicons-goal-16:{ style="color: pink" } Objectives
+=======
+    ## :octicons-goal-16: Objectives
+>>>>>>> 9ff487a (Initial commit)
 
     - [x] Create Integration **Checks** for the `Tetris` app using GitHub Actions.
     - [x] Create a Continuous Delivery workflow for the `Tetris` app using GitHub Actions.
     - [x] Create a new release `tag` for the `Tetris` app using GitHub Actions.
     - [x] Create a Compliance using CodeQL, Dependency Review, and Dependabot.
+<<<<<<< HEAD
+=======
+
+    ## :octicons-check-16: Expected Outcomes
+
+    The outcomes of this lab are:
+
+    - [x] Increased familiarity with GitHub Actions.
+    - [x] Familiarity with GitHub Packages.
+    - [x] Familiarity with the GitHub CodeQL analysis.
+    - [x] Familiarity with the GitHub Dependency Review Action.
+    - [x] Familiarity with the GitHub Dependabot.
+
+    ## 📚 Resources
+
+    - [About status checks](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/collaborating-on-repositories-with-code-quality-features/about-status-checks)
+>>>>>>> 9ff487a (Initial commit)

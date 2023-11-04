@@ -6,7 +6,11 @@
     
     Continuous deployment is often coupled with continuous integration which we have seen earlier. Building on the progress from previous exercises, we will apply continuous deployment mindset by fulfilling the following objectives.
 
+<<<<<<< HEAD
     ## :octicons-goal-16:{ style="color: pink" } Objectives
+=======
+    ## :octicons-goal-16: Objectives
+>>>>>>> 9ff487a (Initial commit)
 
     - [x] Validate releases
     - [x] Execute production deployments on successful validation of respective releases

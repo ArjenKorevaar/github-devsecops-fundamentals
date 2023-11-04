@@ -12,6 +12,12 @@ remote_branch: gh-pages
 repo_url: https://github.com/githubuniverseworkshops/github-devsecops-fundamentals/
 repo_name: GitHub Repository
 
+<<<<<<< HEAD
+=======
+exclude_docs: |
+  !reference.implementations
+
+>>>>>>> 9ff487a (Initial commit)
 theme:
   name: material
 
@@ -148,7 +154,11 @@ extra_css:
   - assets/stylesheets/extra.css
 
 nav:
+<<<<<<< HEAD
   - Home: index.md
+=======
+  - index.md
+>>>>>>> 9ff487a (Initial commit)
   - Prerequisites: prerequisites.md
   - Exercises:
       - Introduction: exercises/index.md
@@ -158,6 +168,7 @@ nav:
           - exercises/01.collaborate/02.md
       - Secure the Software Supply Chain:
           - exercises/02.secure.the.software.supply.chain/index.md
+<<<<<<< HEAD
           - exercises/02.secure.the.software.supply.chain/01.md
           - exercises/02.secure.the.software.supply.chain/02.md
       - Automate Release:
@@ -167,3 +178,14 @@ nav:
       - ✨ Recap:
           - exercises/recap/index.md
   - Tetris Game: tetris.game/index.html
+=======
+          - exercises/02.secure.the.software.supply.chain/00.md
+          - exercises/02.secure.the.software.supply.chain/01.md
+          - exercises/02.secure.the.software.supply.chain/02.md
+          - exercises/02.secure.the.software.supply.chain/02-extra.md
+      - Automate-Release:
+          - exercises/03.automate.release/index.md
+          - exercises/03.automate.release/00.md
+          - exercises/03.automate.release/01.md
+  - Tetris Game: .tetris.game/index.html
+>>>>>>> 9ff487a (Initial commit)

@@ -1,9 +1,17 @@
+<<<<<<< HEAD
 name: Run Checks on PR
+=======
+name: 1.1 Run Checks on PR
+>>>>>>> 9ff487a (Initial commit)
 
 on:
   pull_request:
     branches:
       - main
+<<<<<<< HEAD
+=======
+  workflow_call: {}
+>>>>>>> 9ff487a (Initial commit)
 
 permissions:
   actions: write
@@ -32,18 +40,26 @@ jobs:
         with:
           node-version: 20
 
+<<<<<<< HEAD
       - name: Install Dependencies
+=======
+      - name: Install dependencies
+>>>>>>> 9ff487a (Initial commit)
         run: |
           python -m pip install --upgrade pip
           pip install -r requirements.ci.txt
           npm ci
+<<<<<<< HEAD
           # Install browsers for running functional tests
+=======
+>>>>>>> 9ff487a (Initial commit)
           npx playwright install --with-deps chromium
 
       - name: Build
         run: |
           python -m mkdocs build --clean --strict --verbose --site-dir '${{ env.SITE_DIR }}'
 
+<<<<<<< HEAD
       - name: Functional Test
         run: npx playwright test
 
@@ -54,3 +70,8 @@ jobs:
           name: playwright-report
           path: playwright-report/
           retention-days: 30
+=======
+      - name: Functional test
+        run: |
+          npx playwright test
+>>>>>>> 9ff487a (Initial commit)
